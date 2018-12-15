@@ -1,0 +1,33 @@
+@media screen and (max-width: 600px) {
+  div.logo > img {
+    height: 60%;
+    width: 60%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .contact {
+    padding-top: 100px;
+  }
+}
+@media screen and (max-width: 980px) {
+  .banner-top {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 980px) {
+  div.logo > img {
+    height: 80%;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 300px) {
+  div.logo > img {
+    height: 50%;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .copy {
+    padding-top: 70px;
+  }
+}

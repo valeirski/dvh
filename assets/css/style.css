@@ -1,0 +1,73 @@
+html {
+  background-image: url('../img/background.jpg');
+}
+body {
+  margin:0;
+}
+a {
+  text-decoration: none;
+  color:#000;
+}
+.logo {
+  margin: auto;
+  padding-top: 90px;
+  opacity: 0.7;
+}
+.logo > img {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  display: block;
+  width: 35%;
+  height: 35%;
+}
+.copy {
+  color:#000;
+  font-family: 'Abel', sans-serif;
+  font-size: 14px;
+  margin:0;
+  text-align: center;
+  width:100%;
+  padding-top: 150px;
+}
+.copy > a {
+  text-decoration: none;
+  color:#000;
+  font-size: 17px;
+  font-family: 'Abel', sans-serif;
+}
+.logo-parent {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.vbworks {
+  background-image: url('../img/favicon-64x64.png');
+  height: 20px;
+  width: 19px;
+  background-size:cover;
+  opacity: 0.7;
+}
+.vbworks:hover {
+  background-image: url('../img/favicongrey-64x64.png');
+}
+.contact {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+  flex-direction: column;
+  align-items: center;
+}
+.contact > a > img {
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+  opacity: 0.7;
+}
+.contact > a > img:hover {
+  opacity: 0.3;
+}
+.copy > a:hover {
+  opacity: 0.3;
